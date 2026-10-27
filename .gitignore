@@ -1,0 +1,20 @@
+# macos
+.DS_Store
+
+# dependencies
+node_modules/
+
+# build output
+out/
+bin/
+obj/
+generated/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# Visual Studio cache/options directory
+.vs/
+
+# stray PowerApps CLI user settings (machine-specific)
+~/

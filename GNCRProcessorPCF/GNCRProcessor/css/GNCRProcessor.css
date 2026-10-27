@@ -1,0 +1,143 @@
+.gncr-processor {
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.gncr-processor * {
+  box-sizing: border-box;
+}
+.gncr-processor h1 {
+  color: #004c97;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Verdana, sans-serif;
+  font-size: 24px;
+}
+.gncr-processor label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+}
+.gncr-processor select,
+.gncr-processor textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+}
+.gncr-processor textarea {
+  resize: vertical;
+  height: 200px;
+}
+.gncr-processor button {
+  padding: 10px 20px;
+  background-color: #004c97;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+}
+.gncr-processor button:hover {
+  background-color: #003d7c;
+}
+.gncr-processor table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+}
+.gncr-processor th,
+.gncr-processor td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.gncr-processor th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+.gncr-processor .selected {
+  background-color: #e0e0e0;
+}
+.gncr-processor .preselected {
+  background-color: #d3d3d3;
+}
+.gncr-processor .button-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.gncr-processor .gncr-copy-status {
+  margin: 0 auto 15px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: #e6f4ea;
+  border: 1px solid #34a853;
+  color: #1e4620;
+  font-size: 14px;
+  text-align: center;
+}
+.gncr-processor .gncr-copy-status.error {
+  background-color: #fdecea;
+  border-color: #d93025;
+  color: #7a1f16;
+}
+.gncr-processor .gncr-output,
+.gncr-processor #output {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.gncr-processor .older-than-28-days {
+  background-color: #ffcccc;
+}
+.gncr-processor .gncr-patient-info,
+.gncr-processor #patientInfo {
+  margin-bottom: 20px;
+}
+.gncr-processor .gncr-patient-info h2,
+.gncr-processor #patientInfo h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.gncr-processor .gncr-patient-info p,
+.gncr-processor #patientInfo p {
+  margin: 5px 0;
+}
+.gncr-processor .dosage-info {
+  white-space: pre-wrap;
+}
+.gncr-processor .additional-info {
+  margin-top: 20px;
+}
+.gncr-processor .additional-info pre {
+  white-space: pre-wrap;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+}
+.gncr-processor .discharge-date {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.gncr-processor .gncr-disclaimer {
+  margin-top: 30px;
+  background-color: #f8f8f8;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
